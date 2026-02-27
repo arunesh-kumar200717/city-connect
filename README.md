@@ -1,7 +1,4 @@
-Perfect Arunesh 👌
-Here is a **clean, professional, industry-level README.md** you can directly copy into your GitHub repository.
 
----
 
 # 🏙️ Smart City Citizen Issue Processing & Tracking System
 
