@@ -1,73 +1,200 @@
-# Welcome to your Lovable project
+Perfect Arunesh 👌
+Here is a **clean, professional, industry-level README.md** you can directly copy into your GitHub repository.
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+# 🏙️ Smart City Citizen Issue Processing & Tracking System
 
-## How can I edit this code?
+A full-stack web application designed to streamline the reporting, management, and resolution of citizen-reported urban infrastructure and public service issues.
 
-There are several ways of editing your application.
+This system enables transparent communication between citizens and municipal authorities while improving accountability and response time.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 📌 Project Overview
 
-Changes made via Lovable will be committed automatically to this repo.
+The Smart City Citizen Issue Processing & Tracking System allows:
 
-**Use your preferred IDE**
+* Citizens to report city-related complaints
+* Authorities to manage and assign issues
+* Departments to update complaint status
+* Real-time tracking of issue lifecycle
+* Dashboard-based monitoring and analytics
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This project supports smart governance and digital urban infrastructure management.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+### 👤 User Roles
+
+* Citizen
+* Admin
+* Department Officer
+
+---
+
+### 📝 Citizen Features
+
+* Register and Login
+* Submit new complaint
+* Select category and location
+* Upload image proof
+* Track complaint status
+* View complaint history
+
+---
+
+### 🏢 Admin / Officer Features
+
+* View all complaints
+* Filter by category, status, and location
+* Assign complaints to departments
+* Update complaint status:
+
+  * Open
+  * In Progress
+  * Resolved
+  * Closed
+  * Rejected
+* View complaint status history
+* Dashboard with analytics
+
+---
+
+## 🗂 Complaint Categories
+
+* Infrastructure (Potholes, Street Lights, Bridge Damage)
+* Water (Leakage, No Supply, Drainage Issues)
+* Waste Management (Garbage Overflow, Illegal Dumping)
+* Electricity (Power Outage, Transformer Issue)
+* Public Safety (Open Manhole, Illegal Parking)
+* Environment (Pollution, Tree Cutting)
+* Public Services (Tax Issues, Service Delay)
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* React.js
+* TypeScript
+* Tailwind CSS
+* shadcn-ui
+* Vite
+
+### Backend
+
+* Node.js with Express OR FastAPI (Python)
+
+### Database
+
+* PostgreSQL / MySQL
+
+### Authentication
+
+* JWT (JSON Web Tokens)
+
+---
+
+## 🏗 System Architecture
+
+Citizen → Submit Complaint → Database
+Admin Review → Assign Department
+Department Updates Status → Citizen Tracks Progress
+
+Includes:
+
+* REST API architecture
+* Role-based access control
+* Complaint status history tracking
+* Dashboard analytics
+
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+
+* Node.js (v16 or higher)
+* npm
+
+---
+
+### Clone the Repository
+
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### Start Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Application will run locally at:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🗄 Environment Variables
 
-## What technologies are used for this project?
+Create a `.env` file in the root directory and add:
 
-This project is built with:
+```
+VITE_API_BASE_URL=http://localhost:5000
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+(Add backend environment variables as required.)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📊 Future Enhancements
 
-## Can I connect a custom domain to my Lovable project?
+* Email / SMS notifications
+* AI-based complaint categorization
+* Geo-location mapping
+* Mobile application integration
+* Performance analytics for departments
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🎯 Objectives
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+* Improve transparency in complaint handling
+* Reduce resolution time
+* Digitize municipal issue management
+* Support Smart City initiatives
+
+---
+
+## 👨‍💻 Developed By
+
+Arunesh Kumar C
+BE – Computer Science and Technology
+SNS College of Engineering
+
+---
+
+## 📄 License
+
+This project is developed for academic and learning purposes.
+
+
