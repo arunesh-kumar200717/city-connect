@@ -52,7 +52,7 @@ export default function Auth() {
           <div className="mx-auto mb-2 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
             <Shield className="h-6 w-6 text-primary" />
           </div>
-          <CardTitle className="font-display text-2xl">SmartCity Portal</CardTitle>
+          <CardTitle className="font-display text-2xl">Smart City Portal</CardTitle>
           <CardDescription>
             {isLogin ? "Sign in to your account" : "Create a new citizen account"}
           </CardDescription>
